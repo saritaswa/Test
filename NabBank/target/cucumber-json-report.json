@@ -1,0 +1,20 @@
+
+@tag @tag1
+Scenario: Check enquiry about the home loans is successful # src/test/resources/features/homeloans.feature:29
+  Given Validate the browser
+  When Browser is triggered
+  Then check if browser is started
+  Given user is on Nab Website
+  And user tab on  home loan section
+  When user tap on loan book an appointment section
+  And user goes to buying a property
+  And user tap on otherNabneeds
+  And user tap on continue
+  And user tap on newHomeLoans
+  And user tap on next
+  And user tap on buynewpty
+  And user tap on Next
+  And user tap on No
+  When user fill the form
+  Then user validate the outcomes
+  And user tap on submit
