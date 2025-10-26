@@ -1,4 +1,4 @@
-# Nab Home Loans Test
+# Practice
 
 ## Pre-requisites
 
